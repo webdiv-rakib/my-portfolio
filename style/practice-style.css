@@ -13,10 +13,17 @@ body {
 header {
     width: 1600px;
     height: 837px;
-    border: 2px solid red;
+    border: 2px solid #FFF8F3;
+    margin-top: 51px;
     margin: 0 auto;
-    /* margin-top: 51px; */
+    background-color: #FFF8F3;
+    
+}
 
+.header{
+    background-image: url("../assets/image/developer.png") , url("../assets/image/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
 }
 
 nav {
