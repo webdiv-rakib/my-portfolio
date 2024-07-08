@@ -17,13 +17,13 @@ header {
     margin-top: 51px;
     margin: 0 auto;
     background-color: #FFF8F3;
-    
+
 }
 
-.header{
-    background-image: url("../assets/image/developer.png") , url("../assets/image/header_bg.png");
+.header {
+    background-image: url("../assets/image/developer.png"), url("../assets/image/header_bg.png");
     background-repeat: no-repeat;
-    background-position: top left,bottom right;
+    background-position: top left, bottom right;
 }
 
 nav {
@@ -99,4 +99,45 @@ h6 {
 .banner-image {
     width: 584px;
     height: 676px;
+}
+
+/* About me section style */
+.about-me-section {
+    width: 1140px;
+    height: 550px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-me-section-1 {
+    width: 827px;
+    /* height: 288px; */
+    /* border: 2px solid red; */
+    flex-direction: column;
+    background-color: white;
+
+}
+
+.about-me-information {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.about-me-1 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+
+.about-me-description {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
 }
