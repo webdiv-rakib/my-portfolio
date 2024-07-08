@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: Open Sans;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Banner section style here */
+header {
+    width: 1600px;
+    height: 837px;
+    border: 2px solid red;
+    margin: 0 auto;
+    /* margin-top: 51px; */
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 51px 230px;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 51px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.title {
+    color: #FD6E0A;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.btn-1{
+    background-color: #FD6E0A;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+}
