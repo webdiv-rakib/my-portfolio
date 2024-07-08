@@ -155,3 +155,12 @@ h6 {
     font-weight: 600;
     color: #474747;
 }
+
+/* Skill section style */
+
+.skills-section{
+    width: 1140px;
+    height: 550px;
+    border: 2px solid red;
+    margin: 0 auto;
+}
