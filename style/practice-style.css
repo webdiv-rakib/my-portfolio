@@ -276,3 +276,38 @@ h6 {
     margin-top: 50px;
     margin-bottom: 113px;
 }
+
+/* Footer section style */
+footer {
+    width: 1600px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+
+}
+
+.footer-container {
+    display: flex;
+    gap: 117px;
+}
+
+.name {
+    width: 461px;
+    height: 64px;
+    padding: 10px 20px;
+    margin-top: 28px;
+}
+
+.email {
+    margin-top: 24px;
+    width: 461px;
+    height: 64px;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+}
+
+.text-area {
+    width: 461px;
+    height: 180px;
+}
